@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper-profil {
+  @apply md:max-w-md mx-auto md:my-2 p-4 bg-white/10 rounded-xl border border-white/30 backdrop-blur-lg;
+}
+
+/*--------------------------------------------------*\
+   * avatar container
+\*--------------------------------------------------*/
+
+.avatar {
+  @apply flex flex-col items-center mt-8;
+}
+
+img {
+  @apply rounded-full text-center;
+}
+
+figure {
+  @apply flex flex-col items-center;
+}
+
+/*--------------------------------------------------*\
+   * Button
+\*--------------------------------------------------*/
+
+.wrapper-buttons {
+  @apply flex justify-center gap-4 my-6;
+}
+
+.buttons-item {
+  @apply p-2 border rounded-full;
+}
+
+.github,
+.instagram,
+.linkedin {
+  @apply hover:bg-white;
+}
+
+.list-button {
+  @apply flex gap-4 mt-4 text-white items-center p-4 border rounded-2xl;
+}
+
+.web {
+  @apply hover:bg-red-500;
+}
+.blog {
+  @apply hover:bg-blue-500;
+}
+.shutterstock {
+  @apply hover:bg-violet-500;
+}
