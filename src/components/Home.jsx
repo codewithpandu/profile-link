@@ -7,7 +7,7 @@ import linkIcon from "../assets/icon/link.svg";
 
 const Home = () => {
   return (
-    <div className="wrapper-profil">
+    <section className="wrapper-profil">
       {/* <div className="flex justify-end">
         <Hamburger size={20} />
       </div> */}
@@ -29,7 +29,7 @@ const Home = () => {
         <ButtonsList />
         <div className="pt-16"></div>
       </div>
-    </div>
+    </section>
   );
 };
 
